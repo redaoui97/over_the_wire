@@ -14,3 +14,10 @@ The robots text file shows that there is a directory called "S3cr3t" in the serv
 	Referer: http://natas5.natas.labs.overthewire.org/, you then get redirected to a page with a password for the next level
 
 </p>
+
+<h3>Natas:level 5</h3>
+<p>
+	First, you just have to click on this <a href="natas5.natas.labs.overthewire.org">link</a> and connect using natas5:pw.
+	You can see a message saying :"Access disallowed. You are not logged in", after just logging in, but if you search in cookies, you'll find the value of loggedin set to 0. After setting it to 1 and reloading the page we get the password for the next level.
+
+</p>
