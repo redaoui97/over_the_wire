@@ -29,3 +29,11 @@ The robots text file shows that there is a directory called "S3cr3t" in the serv
 In this source code written in php, we see an a file included : "includes/secret.inc" so now we just have to copy paste in with the rest of the url and you'll have to secret code.
 
 </p>
+
+<h3>Natas:level 7</h3>
+<p>
+	First, you just have to click on this <a href="natas6.natas.labs.overthewire.org">link</a> and connect using natas6:pw.
+	We can see that there is a textbox where you appareently have to paste in the secret code to get the pw for the next level, and a link to the source code of that page. We need the source code beecause we can't see php code from console because it's only stored on the server unlike the html and css code that you can freely navigate. 
+In this source code written in php, we see an a file included : "includes/secret.inc" so now we just have to copy paste in with the rest of the url and you'll have to secret code.
+
+</p>
