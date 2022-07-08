@@ -56,3 +56,19 @@ In this source code written in php, we see an a file included : "includes/secret
 In this source code written in php, we see an a file included : "includes/secret.inc" so now we just have to copy paste in with the rest of the url and you'll have to secret code.
 
 </p>
+
+<h3>Natas:level 8</h3>
+<p>
+	First, you just have to click on this <a href="http://natas8.natas.labs.overthewire.org">
+	Once we click on the page source link in the page, we notice that the php code encodes the secret password using: bin2hex, strrev, base64_encode.
+	All we haveto do is decode the secret using hex2bin, strrev, base64_decode to get the right password 
+
+</p>
+	
+<h3>Natas:level 9</h3>
+<p>
+	First, you just have to click on this <a href="http://natas9.natas.labs.overthewire.org">l
+	input given by the user is executed automatically in the function passthru, all we have to do is inject a command to get to the content of /etc/natas_webpass/natas10 by using "; cat /etc/natas_webpass/natas10"
+
+</p>
+	
