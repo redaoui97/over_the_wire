@@ -69,6 +69,13 @@ In this source code written in php, we see an a file included : "includes/secret
 <p>
 	First, you just have to click on this <a href="http://natas9.natas.labs.overthewire.org">link</a>
 	input given by the user is executed automatically in the function passthru, all we have to do is inject a command to get to the content of /etc/natas_webpass/natas10 by using "; cat /etc/natas_webpass/natas10"
-
+(path traversal; command injection)
 </p>
 	
+<h3>Natas:level 10</h3>
+<p>
+	First, you just have to click on this <a href="http://natas10.natas.labs.overthewire.org">link</a>
+	Now there is a the input filtering is more secured and we can use characters such as "; | &" to inject a second command withing the code, but we can still use grep since we know where the password is.
+The command normally executed is : "grep -i $key dictionary.txt", we can use grep to get the first line from the file we want using this command: "-m1 "" /etc/natas_webpass/natas11" we then get the output we need
+</p>
+
